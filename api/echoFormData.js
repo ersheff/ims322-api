@@ -1,6 +1,6 @@
-const { text } = require("micro");
-const querystring = require("querystring");
-const xss = require("xss");
+const { text } = require('micro');
+const querystring = require('querystring');
+const xss = require('xss');
 
 module.exports = async (req, res) => {
   const formData = await text(req);
